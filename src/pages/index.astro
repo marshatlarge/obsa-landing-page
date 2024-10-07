@@ -1,0 +1,25 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header';
+import Hero from '../components/Hero';
+import AchievementsScroll from '../components/AchievementsScroll';
+import TestimonialSection from '../components/TestimonialSection';
+import TestimonialVideos from '../components/TestimonialVideos';
+import OBSAEdgeSection from '../components/OBSAEdgeSection';
+import ContactSection from '../components/ContactSection';
+import LocationAccordion from '../components/LocationAccordian';
+import Footer from '../components/Footer';
+---
+
+<Layout title="OBSA - Ohio Baseball Science Academy">
+  <Header client:load />
+  <Hero />
+  <AchievementsScroll client:load />
+  
+  <TestimonialVideos/>
+  <TestimonialSection />
+  <OBSAEdgeSection />
+  <ContactSection />
+  <LocationAccordion client:load />
+  <Footer />
+</Layout>
