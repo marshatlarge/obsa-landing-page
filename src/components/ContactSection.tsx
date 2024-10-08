@@ -3,7 +3,7 @@ import { Phone } from "lucide-react";
 
 export default function ContactSection() {
   return (
-    <section className="bg-black text-white py-16">
+    <section className="bg-black text-white py-16" id="contact-section">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl md:text-5xl font-bold text-center mb-8">
           Let's get started taking your game to the next level.

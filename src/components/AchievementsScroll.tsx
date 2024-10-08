@@ -3,20 +3,20 @@ import { motion } from "framer-motion";
 
 const logos = [
   {
-    src: "/placeholder.svg?text=Player+of+the+Year&w=200&h=100",
+    src: "/gatorade.png",
     alt: "Player of the Year",
   },
   {
-    src: "/placeholder.svg?text=Ohio+State&w=100&h=100",
+    src: "/ohio-st.png",
     alt: "Ohio State University",
   },
   {
-    src: "/placeholder.svg?text=UK&w=100&h=100",
+    src: "/uk.png",
     alt: "University of Kentucky",
   },
-  { src: "/placeholder.svg?text=P&w=100&h=100", alt: "Pittsburgh Pirates" },
-  { src: "/placeholder.svg?text=C&w=100&h=100", alt: "Cincinnati" },
-  { src: "/placeholder.svg?text=M&w=100&h=100", alt: "University of Michigan" },
+  { src: "/pirates.png", alt: "Pittsburgh Pirates" },
+  { src: "/cincy.png", alt: "Cincinnati" },
+  { src: "/mich.png", alt: "University of Michigan" },
 ];
 
 export default function AchievementsScroll() {
@@ -27,12 +27,10 @@ export default function AchievementsScroll() {
           Awards, scholarships, professional contracts—you name it, OBSA
           athletes have achieved it.
         </h2>
-        <p className="text-xl text-center mb-12">
-          We're proud to have played a small part in their success.
-        </p>
+
         <div className="overflow-hidden mb-12">
           <motion.div
-            className="flex"
+            className="flex gap-10"
             animate={{
               x: [0, -1920],
             }}
@@ -40,7 +38,7 @@ export default function AchievementsScroll() {
               x: {
                 repeat: Infinity,
                 repeatType: "loop",
-                duration: 20,
+                duration: 60,
                 ease: "linear",
               },
             }}
@@ -52,14 +50,9 @@ export default function AchievementsScroll() {
             ))}
           </motion.div>
         </div>
-        <div className="text-center">
-          <button
-            className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-md text-lg transition duration-300 ease-in-out transform hover:scale-105"
-            onClick={() => console.log("Learn More clicked")}
-          >
-            Learn More About Our Athletes' Success
-          </button>
-        </div>
+        <p className="text-xl text-center mb-12">
+          We're proud to have played a small part in their success.
+        </p>
       </div>
     </section>
   );
