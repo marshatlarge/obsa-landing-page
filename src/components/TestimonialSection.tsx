@@ -2,8 +2,8 @@ import { Star } from "lucide-react";
 
 const testimonials = [
   {
-    name: "Jason Clarke, Parent",
-    text: "The team at OBSA is the absolute best. Coming off of injury I have seen the confidence in my son grow in just 3 months. He loves going to train with the guys. His hitting (Exit velo +10mph), pitching (+8mph), and fielding has improved in just a short period of time. Thanks to Eric and the team. The technology and science is the making the difference.",
+    name: "GJ Tengesdahl, Parent",
+    text: "My son has been going to OBSA for 3 years now for winter instruction. I can say for a fact that for many years I searched for high end pitching instruction and there wasn’t any until I found OBSA. From the elite level mechanics breakdown, instruction, nutrition, weight training, and pitch shaping, his growth and development have been off the charts. Seeing him from an unranked player throwing in the mid 70’s, to a D1 committed junior throwing in the 90’s would not have been possible without Eric and his staff's help. The best arms in the area come out of OBSA!",
     rating: 5,
   },
   {
@@ -22,8 +22,8 @@ const testimonials = [
     rating: 5,
   },
   {
-    name: "TJ Johnson, Parent",
-    text: "My son Cole started with OBSA 5 months ago for a few throwing mechanics tweaks and to improve infield velo. Eric and thr OBSA team do some great things using proven methods and the latest tech to get these boys where they wanna go. We have been very impressed with how far he has came in 5 months. Velo is well above where it started, accuracy and confidence on the field as well as the mound has changed dramatically. Would highly recommend OBSA for your player.",
+    name: "Jason Clarke, Parent",
+    text: "The team at OBSA is the absolute best. Coming off of injury I have seen the confidence in my son grow in just 3 months. He loves going to train with the guys. His hitting (Exit velo +10mph), pitching (+8mph), and fielding has improved in just a short period of time. Thanks to Eric and the team. The technology and science is the making the difference.",
     rating: 5,
   },
   {

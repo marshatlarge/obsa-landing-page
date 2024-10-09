@@ -8,19 +8,19 @@ const features = [
     icon: <Zap className="w-6 h-6" />,
     title: "Comprehensive Approach",
     description:
-      "From biomechanics, to prep, to the mental game. We believe in improving every part of your performance.",
+      "Complete player development plans: biomechanical analysis, functional movement screenings, in-depth ball flight and performance analytics.",
   },
   {
     icon: <Shield className="w-6 h-6" />,
     title: "Injury Prevention",
     description:
-      "Stay in the game longer with our proactive approach to biomechanical optimization.",
+      "Stay in the game longer with our proactive approach to athlete workload and availability.",
   },
   {
     icon: <LineChart className="w-6 h-6" />,
     title: "Data-Driven Progress Tracking",
     description:
-      "Understand where you are in your training process at all times with objective feedback.",
+      "We don't eyeball or guess. Understand where you are in your training process at all times with objective feedback.",
   },
   {
     icon: <RefreshCw className="w-6 h-6" />,

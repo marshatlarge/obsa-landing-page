@@ -50,7 +50,7 @@ export default function AchievementsScroll() {
             ))}
           </motion.div>
         </div>
-        <p className="text-xl text-center mb-12">
+        <p className="text-2xl text-center mb-12">
           We're proud to have played a small part in their success.
         </p>
       </div>

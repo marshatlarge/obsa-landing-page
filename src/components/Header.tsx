@@ -61,8 +61,8 @@ export default function Header() {
               </button>
             </div>
             <div className="text-center sm:text-right text-xs sm:text-sm">
-              Call or email to learn more about OBSA or book your first training
-              session
+              Call or email to learn more and schedule your comprehensive player
+              evaluation.
             </div>
           </div>
         </div>

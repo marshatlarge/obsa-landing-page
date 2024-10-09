@@ -12,7 +12,7 @@ export default function ContactSection() {
           <p className="text-lg mb-2">
             Our services include pitching, hitting, strength training, and
             catching, with both in-house and remote pitching training options
-            available.
+            available. Schedule your evaluation today.
           </p>
         </div>
         <div className="flex justify-center mb-8">
@@ -25,10 +25,10 @@ export default function ContactSection() {
           </a>
         </div>
         <div className="max-w-2xl mx-auto bg-red-600 rounded-lg p-4 sm:p-8">
-          <h3 className="text-2xl font-bold mb-4">Contact OBSA</h3>
-          <p className="mb-6 text-sm">
-            (Please add your phone number for a prompt response)
-          </p>
+          <h3 className="text-2xl font-bold mb-4">
+            Reach out for your comprehensive player evaluation.
+          </h3>
+
           <div
             className="mb-8 relative overflow-hidden"
             style={{ height: "1070px" }}
