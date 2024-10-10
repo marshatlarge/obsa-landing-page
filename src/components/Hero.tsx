@@ -52,7 +52,7 @@ export default function Hero() {
         <p className="text-xl sm:text-2xl md:text-3xl mb-8 max-w-3xl mx-auto">
           The baseball off-season is underway. Schedule your evaluation today to
           get your off-season development plan. (Now with 3 locations: West
-          Chester, Hamilton, and Yellow Springs)
+          Chester, Hamilton, <br></br> and Yellow Springs)
         </p>
         <button
           className="bg-red-600 hover:bg-red-700 text-white font-bold py-3 px-8 rounded-md text-lg transition duration-300 ease-in-out transform hover:scale-105"

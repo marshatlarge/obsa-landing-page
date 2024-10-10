@@ -74,7 +74,7 @@ export default function TestimonialVideos() {
     <section className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
-          Train where the pros go. OBSA gets results.
+          OBSA gets results.
         </h2>
         <p className="text-2xl text-center mb-12">
           Since 2020, 300+ OBSA clients have gone on to play at the next level

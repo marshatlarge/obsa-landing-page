@@ -42,7 +42,11 @@ export default function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black text-white">
       <div className="container mx-auto px-4 py-2">
         <div className="flex items-center flex-col space-y-2 sm:flex-row sm:items-center sm:justify-between sm:space-y-0">
-          <div className="text-2xl font-bold">OBSA</div>
+          <img
+            src="/obsa-logo.png"
+            alt="ohio baseball science academy seams logo"
+            className="w-24"
+          ></img>
           <div className="flex flex-col items-center sm:items-end">
             <div className="flex flex-row items-center space-x-4 mb-2">
               <button
