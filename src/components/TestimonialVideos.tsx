@@ -26,9 +26,11 @@ const TestimonialVideo: React.FC<TestimonialVideoProps> = ({
         preload="metadata"
         poster={poster} // Set the poster here
       />
+      <div className="absolute top-0 left-0 text-sm text-white p-4">
+        <h3 className="font-bold text-sm">{name}</h3>
+        <p className="text-red-400 text-xs">{affiliation}</p>
+      </div>
       <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-gray-900 to-transparent text-white p-4">
-        <h3 className="font-bold text-lg">{name}</h3>
-        <p className="text-red-400">{affiliation}</p>
         <p className="text-sm mt-1">{achievement}</p>
       </div>
     </div>
